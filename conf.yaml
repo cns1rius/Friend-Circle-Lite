@@ -10,7 +10,7 @@ debug: false
 #   article_count: 每个站点最多抓取的文章数量
 spider_settings:
   enable: true
-  json_url: "https://blog.liushen.fun/friend.json"
+  json_url: "https://blog.s1rius.space/friend.json"
   article_count: 5
 
 # 代理配置
@@ -33,7 +33,7 @@ proxy_settings:
 #   merge_link_check_data: 是否合并友链可达性数据
 merge_settings:
   enable: false
-  remote_base_url: "https://fc.liushen.fun"
+  remote_base_url: "https://fc.s1rius.space"
   merge_article_data: true
   merge_link_check_data: true
 
@@ -64,7 +64,7 @@ email_push:
 # 邮件 issue 订阅功能配置
 # 说明：从 GitHub issue 中提取订阅邮箱，并推送你自己站点的新文章。
 rss_subscribe:
-  enable: true
+  enable: false
   github_username: willow-god
   github_repo: Friend-Circle-Lite
   your_blog_url: https://blog.liushen.fun/
